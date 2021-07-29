@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Pinyon+Script&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="style.css">
+
+   <title>Document</title>
+</head>
+
+<body>
+   <h1>Colored Letters</h1>
+   <hr>
+   
+   <div id="top-part">
+      
+      <div class="options" id="input-option">
+         <h2>Input</h2>
+         <textarea rows="10" cols="20" name="test-target" id="textArea" type='text' placeholder="Type here..."></textarea>
+      </div>
+      <div class="options" id="typography-option">
+         <h2>Typography</h2>
+         <select name="cars" id="optionsTypo">
+            <option value="barlow" id="barlow">Barlow</option>
+            <option value="timesNewRoman" id="timesNewRoman">Times New Roman</option>
+            <option value="roboto" id="roboto">Roboto</option>
+            <option value="zillaSlab" id="zillaSlab">Zilla Slab</option>
+            <option value="pinyonScript" id="pinyonScript">Pinyon Script</option>
+         </select>
+         <input type="number" id="numbTypo" placeholder="50px">
+      </div>
+      <div class="options" id="color-option">
+         <h2>Color</h2>
+         <div>
+         <label for="colorWell"></label>
+         <input type="color" class="colorPicker" id="colorChange1" value='#39FF1F' > 
+         <label for="colorWell"></label>
+         <input type="color" class="colorPicker" id="colorChange2" value='#FF9500' >
+         </div>   
+         <div id="parentDiv"></div>
+      </div>   
+   </div>
+
+   <hr>
+
+
+<button id="resetButton">Reset</button>
+<!-- <button id="saveButton">Save</button> -->
+   <div id="showAreaDiv"><p id="showArea"></p></div>
+
+
+
+   
+   
+
+   
+   
+  
+
+
+
+
+   <script src="script.js"></script>
+</body>
+
+</html>
